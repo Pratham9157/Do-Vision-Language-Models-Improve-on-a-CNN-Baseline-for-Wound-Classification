@@ -17,6 +17,11 @@
 /deliverables/*
 !/deliverables/WoundVLM_presentation.pptx
 !/deliverables/WoundVLM_IEEE_paper_latex.pdf
+!/data/
+/data/*
+!/data/processed/
+/data/processed/*
+!/data/processed/index.csv
 
 # never published
 *.log

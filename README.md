@@ -89,6 +89,7 @@ All result tables are in [`results/`](results/): [`07_summary.md`](results/07_su
 | `tools/kaggle_pipeline.py` | Optional: upload the data and run the notebooks on Kaggle from the command line |
 | `tools/make_notebooks.py` | Regenerates `notebooks/` |
 | `tools/posthoc.py` | Post-hoc tables in `results/08_posthoc/` (per-class F1, text audit, AZH comparisons) |
+| `data/processed/index.csv` | Our split table: label, duplicate group, inclusion status, fold and crop box for every image (no images) |
 | `results/` | Our final tables and figures |
 | `deliverables/` | The paper (PDF) and the presentation (PPTX, with the demo video embedded) |
 
@@ -104,7 +105,8 @@ All result tables are in [`results/`](results/): [`07_summary.md`](results/07_su
    data/raw/azh/{Train,Test}/wound_locations_Labels_AZH_{Train,Test}.csv
    ```
 3. **Prepare the data (CPU):** run `notebooks/01_data.ipynb`. It writes `data/processed/`, which holds the index,
-   duplicate groups, folds and crops.
+   duplicate groups, folds and crops. It rewrites `data/processed/index.csv`; `git diff data/processed/index.csv` then
+   shows whether your splits match ours.
 4. **Run the experiments.** You need a GPU; everything took about 7.3 GPU hours on a single 16 GB GPU.
    - **Locally:** run notebooks `02` → `07` in order, or `00_all.ipynb` for stages 02–07.
    - **On Kaggle:** put your Kaggle API token in `~/.kaggle/access_token`, then:
