@@ -1,7 +1,6 @@
 # Only code, tests, results and the README are published.
 /*
 !/.gitignore
-!/LICENSE
 !/README.md
 !/requirements.txt
 !/src/
