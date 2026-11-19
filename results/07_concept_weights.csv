@@ -1,0 +1,31 @@
+class,concept,concept_written_for,weight,lambda
+venous,a long narrow wound with straight edges,surgical,0.38180566961516443,0.01
+venous,a wound at the site of an amputated toe,diabetic,0.26130162705910076,0.01
+venous,a purple or maroon area of intact skin from deep tissue injury,pressure,0.21931984992424888,0.01
+venous,a fresh scab on the shin,trauma,0.19720936310068746,0.01
+venous,a shallow ulcer with irregular borders on the lower leg,venous,0.19121259772070368,0.01
+pressure,a wound on the hip or over the tailbone,pressure,0.23910244252748605,0.01
+pressure,a wound just above the ankle on the inner side of the leg,venous,0.21226298201963192,0.01
+pressure,several ulcers merging on the calf,venous,0.20904107786255474,0.01
+pressure,a wound over the sacrum or buttocks,pressure,0.20029956711663605,0.01
+pressure,a round wound with undermined edges,pressure,0.19206942128911023,0.01
+trauma,a wound from a fall or injury on the arm or leg,trauma,0.23536671466536593,0.01
+trauma,thin fragile elderly skin with a tear,trauma,0.22059311875564325,0.01
+trauma,a wound with dry black necrotic tissue on the leg,other,0.19211568604428422,0.01
+trauma,bruising around a wound,trauma,0.18000265611523145,0.01
+trauma,thickened hardened skin of the lower leg,venous,0.15889213663553603,0.01
+diabetic,a surgical scar with a wound,surgical,0.29458780530975626,0.01
+diabetic,brown hemosiderin staining of the skin around the wound,venous,0.264067521400737,0.01
+diabetic,a deformed foot with a wound on a pressure point,diabetic,0.25330471958140766,0.01
+diabetic,a deep crater-like wound over a bony prominence,pressure,0.252070050233128,0.01
+diabetic,a round wound with undermined edges,pressure,0.23103756864831018,0.01
+surgical,a skin tear with a flap of skin,trauma,0.3368491937056828,0.01
+surgical,an ulcer on the sole of the foot,diabetic,0.28840214033103095,0.01
+surgical,a surgical wound that has opened along its incision line,surgical,0.2264919294503924,0.01
+surgical,swollen lower leg with shiny tight skin,venous,0.19809138070865165,0.01
+surgical,a deep ulcer on the plantar foot,diabetic,0.16115129600776035,0.01
+other,a wound from a fall or injury on the arm or leg,trauma,0.23983020129689034,0.01
+other,a blister on the skin,other,0.22037991180814867,0.01
+other,a straight linear incision,surgical,0.19059253288137185,0.01
+other,black hard eschar covering the wound bed,pressure,0.18316232644571856,0.01
+other,a wound at the site of an amputated toe,diabetic,0.15800844055312896,0.01

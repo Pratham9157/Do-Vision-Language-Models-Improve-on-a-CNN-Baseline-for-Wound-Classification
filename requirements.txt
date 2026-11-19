@@ -1,0 +1,15 @@
+# Python >= 3.10. Install the CUDA build of torch/torchvision for your GPU from pytorch.org if needed.
+torch>=2.2
+torchvision>=0.17
+transformers==4.51.3
+open_clip_torch==2.32.0
+sentencepiece
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+matplotlib
+pillow
+pytest
+kaggle>=1.7   # optional: only for tools/kaggle_pipeline.py

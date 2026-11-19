@@ -1,0 +1,6 @@
+id,test,macro_f1_a,macro_f1_b,metric,diff,ci_lo,ci_hi,p_boot,a_better,b_better,n,holm_reject,verdict
+H1a,low labels (10%): concept bottleneck vs language-free linear probe (same encoder),0.34049200210351716,0.40141879262214036,macro_f1,-0.06092679051862321,-0.08526659843155439,-0.037612676019741165,0.0,False,True,1662,True,B better
+H1b,low labels (10%): concept bottleneck vs CNN,0.34049200210351716,0.31142336716422175,macro_f1,0.0290686349392954,0.0016834716013076083,0.05590772731656067,0.042,True,False,1662,True,A better (confirmed)
+H2,external AZH test (trained on 100% WoundSeg): concept bottleneck vs CNN,0.6626927298542632,0.5925738033298353,macro_f1,0.07011892652442786,0.02677389392971201,0.113975140355865,0.002,True,False,730,True,A better (confirmed)
+H3,100% labels: CNN + concept bottleneck fusion vs CNN,0.5473143007902467,0.5215337122695319,macro_f1,0.025780588520714742,0.006058909130598214,0.04764135771176216,0.018,True,False,1662,True,A better (confirmed)
+H4,low labels (10%): CNN trained with VLM pseudo-labels vs CNN,0.3531360465672529,0.31142336716422175,macro_f1,0.04171267940303114,0.01599229359115957,0.0689258672133776,0.002,True,False,1662,True,A better (confirmed)

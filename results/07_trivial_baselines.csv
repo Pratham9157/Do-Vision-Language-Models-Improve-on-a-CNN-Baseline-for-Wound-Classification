@@ -1,0 +1,5 @@
+set,model,macro_f1,accuracy
+wseg 6-class,majority class,0.07397003745318352,0.2851985559566787
+wseg 6-class,stratified random,0.16663564468912073,
+azh 4-class,majority class,0.12640736949846468,0.33835616438356164
+azh 4-class,stratified random,0.24067170024657067,

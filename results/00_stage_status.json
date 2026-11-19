@@ -1,0 +1,27 @@
+{
+ "embeddings": {
+  "ok": true,
+  "minutes": 22.1
+ },
+ "generative_vlm": {
+  "ok": true,
+  "minutes": 353.5
+ },
+ "cnn_main": {
+  "ok": true,
+  "minutes": 43.7
+ },
+ "heads": {
+  "ok": true,
+  "returncode": 0,
+  "minutes": 397.2
+ },
+ "cnn_pseudo": {
+  "ok": true,
+  "minutes": 13.0
+ },
+ "report": {
+  "ok": true,
+  "minutes": 5.8
+ }
+}

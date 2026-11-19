@@ -1,0 +1,7 @@
+comparison,metric,diff,ci_lo,ci_hi,p_boot,a_better,b_better,n
+AZH anchor: lp siglip vs cnn 3-seed ensemble,accuracy,0.0815217391304347,0.010866643291257538,0.14660041543364447,0.031,True,False,184
+AZH anchor: lp siglip vs cnn 3-seed ensemble,macro_f1,0.08491554085531638,0.011000355607374843,0.15053851324544482,0.026,True,False,184
+AZH anchor: cbm siglip vs cnn 3-seed ensemble,accuracy,0.005434782608695565,-0.06062465142219749,0.07330212677847778,0.9,False,False,184
+AZH anchor: cbm siglip vs cnn 3-seed ensemble,macro_f1,0.008453030705046105,-0.05717361863696941,0.07797051455162386,0.771,False,False,184
+AZH anchor: cbm_zero siglip vs cnn 3-seed ensemble,accuracy,-0.03804347826086962,-0.1179775280898876,0.04347826086956519,0.411,False,False,184
+AZH anchor: cbm_zero siglip vs cnn 3-seed ensemble,macro_f1,-0.048388145231985424,-0.13108159301336014,0.04088765431331706,0.309,False,False,184

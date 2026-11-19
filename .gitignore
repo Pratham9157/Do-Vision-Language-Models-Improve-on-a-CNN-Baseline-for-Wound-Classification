@@ -1,0 +1,26 @@
+# Only code, tests, results and the README are published.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/requirements.txt
+!/src/
+!/tests/
+!/notebooks/
+!/results/
+!/tools/
+/tools/*
+!/tools/kaggle_pipeline.py
+!/tools/make_notebooks.py
+!/tools/posthoc.py
+!/deliverables/
+/deliverables/*
+!/deliverables/WoundVLM_presentation.pptx
+!/deliverables/WoundVLM_IEEE_paper_latex.pdf
+
+# never published
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
